@@ -1,0 +1,10 @@
+<div class="btn" align="center">
+  <button onclick="window.print()" style="padding:3px 15px; font-weight:bold">Print</button>
+  <button onclick="window.location='javascript:history.go(-1)'" style="padding:3px 15px; font-weight:bold">Back</button>
+</div>
+
+<style media="print">
+.btn{
+    display:none;
+}
+</style>
